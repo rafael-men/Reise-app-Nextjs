@@ -13,5 +13,5 @@
 <hr>
 
 <section>
-  <h1>Para Executar o Código, execute npm start no package.json ou no terminal, ela vai iniciar no http://localhost:3000</h1>
+  <h5>Para Executar o Código, execute npm start no package.json ou no terminal, ela vai iniciar no http://localhost:3000</h5>
 </section>
