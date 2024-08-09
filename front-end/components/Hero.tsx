@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className='relative max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row border'>
+    <section className='relative max-container padding-container flex flex-col gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row '>
       {/* Imagem de fundo e gradiente */}
       <div className="absolute inset-0 bg-[url('https://a0.muscache.com/im/pictures/miso/Hosting-1150556975328182088/original/437ff731-7187-4140-97a3-b4212a948682.jpeg?im_w=720')] bg-cover bg-center"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>

@@ -2,7 +2,9 @@ import React from 'react'
 
 const Guide = () => {
   return (
-    <div>Guide</div>
+    <section className='flexCenter flex-col'>
+
+    </section>
   )
 }
 
