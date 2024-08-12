@@ -41,7 +41,7 @@ const CampSite = ({ backgroundImage, title, subtitle }: CampProps) => {
 const Camp = () => {
   return (
     <section className="2xl:max-container relative flex flex-col lg:mb-10 lg:py-5">
-      <div className=" hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
+      <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="https://i0.wp.com/thehiddennorth.com/wp-content/uploads/2023/10/Rovaniemi.jpg?fit=1400%2C924&ssl=1"
           title="Meet Rovaniemi"
@@ -53,10 +53,22 @@ const Camp = () => {
           subtitle="Florence - Italy"
         />
       </div>
-      <div className="flexEnd mt-10 px-6 mt:-mt-60 lg:mr-6">
-        <div className="bg-slate-300 p-8 lg:max-w-[500px] xl:max-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
-          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-black">Need Some <strong> Special Advices </strong>Before Travel?</h2>
-          <p className="regular-14 xl:regular-16 mt-5 text-slate-500">Before think about travel to some place, learn about the laws of the country, and don't forget the essential documents to help your entrance in another territory, like passports, exchanged money and utilitaries...</p>
+      <div className="flex flex-col lg:flex-row lg:space-x-6 mb-5 mt-10 px-6">
+        <div className="bg-slate-300 p-8 lg:w-1/2 xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl">
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-black">
+            Need Some <strong> Special Advices </strong>Before Travel?
+          </h2>
+          <p className="regular-14 xl:regular-16 mt-5 text-slate-500">
+            Before think about travel to some place, learn about the laws of the country, and don't forget the essential documents to help your entrance in another territory, like passports, exchanged money and utilitaries...
+          </p>
+        </div>
+        <div className="bg-slate-300 p-8 lg:w-1/2 xl:max-w-[734px] xl:rounded-5xl xl:px-16 xl:py-20 relative w-full overflow-hidden rounded-3xl mt-6 lg:mt-0">
+          <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-black">
+            We Ensure Your Safety and Comfort in your <strong>Trip</strong>
+          </h2>
+          <p className="regular-14 xl:regular-16 mt-5 text-slate-500">
+            Our motivation is making you feel comfortable and safe in your travel, by the way, our system is improved to offer the cheapest prices and the best accomodations in the city, we give you a treatment that you never have in your vacations or travelling for work...
+          </p>
         </div>
       </div>
     </section>
