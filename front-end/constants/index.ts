@@ -37,7 +37,7 @@ export const NAV_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'About Hilink',
+        'About Reise',
         'Press Releases',
         'Environment',
         'Jobs',
@@ -47,7 +47,7 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Discover Europe', 'A New Destiny: Asia', 'Ski in the andes'],
     },
   ];
   
@@ -55,17 +55,14 @@ export const NAV_LINKS = [
     title: 'Contact Us',
     links: [
       { label: 'Admin Officer', value: '123-456-7890' },
-      { label: 'Email Officer', value: 'hilink@akinthil.com' },
+      { label: 'Email Officer', value: 'Reise@akinthil.com' },
     ],
   };
   
   export const SOCIALS = {
     title: 'Social',
     links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
+      '/linkedin.svg',
       '/wordpress.svg',
     ],
   };

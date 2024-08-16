@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Features = () => {
 
   return (
-    <section className='flex-col flexCenter overflow-hidden bg-feature-bg bg-cover py-24 border-1 mt-5 ' style={{ backgroundImage: 'linear-gradient(to left, transparent, black), url("/airport.jpg")' }}>
+    <section className='flex-col flexCenter overflow-hidden bg-feature-bg bg-cover mb-9 py-24 border-1 mt-5 ' style={{ backgroundImage: 'linear-gradient(to left, transparent, black), url("/airport.jpg")' }}>
       <div className='maxContainer padding-container relative w-full justify-end'>
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
